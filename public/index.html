@@ -3,11 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="../src/base/reset.css" rel="stylesheet" />
-    <link href="../src/base/typography.css" rel="stylesheet" />
-    <link href="../src/components/button.css" rel="stylesheet" />
-    <link href="../src/layouts/container.css" rel="stylesheet" />
-    <link href="../src/layouts/grid.css" rel="stylesheet" />
+    <link href="../src/scribble-ui.css" rel="stylesheet" />
     <title>Scribble UI</title>
   </head>
   <style>
@@ -27,18 +23,18 @@
       <p class="title">Scribble UI</p>
       <div class="row">
         <div class="col-12">
-          <h1>Button Components</h1>
+          <h1>Components</h1>
         </div>
         <div class="col-12">
           <h2>Button Contained</h2>
-          <button class="btn btn-contained">Contained</button>
+          <button class="btn btn-contained btn-fullwidth">Contained</button>
         </div>
         <div class="col-12">
-          <h2>Button Outlined</h2>
+          <h2>Outlined</h2>
           <button class="btn btn-outlined">Outlined</button>
         </div>
         <div class="col-12">
-          <h2>Button Text</h2>
+          <h2>Text</h2>
           <button class="btn btn-text">Text</button>
         </div>
       </div>
@@ -47,16 +43,67 @@
           <h1>Input Components</h1>
         </div>
         <div class="col-12">
-          <h2>Button Contained</h2>
-          <button class="btn btn-contained">Contained</button>
+          <h2>Outlined</h2>
+          <div class="input-group">
+            <input type="text" class="input-outlined input-md" />
+            <label class="input-label">Email Address</label>
+          </div>
         </div>
         <div class="col-12">
-          <h2>Button Outlined</h2>
-          <button class="btn btn-outlined">Outlined</button>
+          <h2>Filled</h2>
+          <div class="input-group">
+            <input type="text" class="input-filled input-sm" />
+            <label class="input-label">Email Address</label>
+          </div>
         </div>
         <div class="col-12">
-          <h2>Button Text</h2>
-          <button class="btn btn-text">Text</button>
+          <h2>Standard</h2>
+          <div class="field standard md">
+            <input type="text" placeholder=" " />
+            <label>Username</label>
+          </div>
+        </div>
+        <div class="col-12">
+          <h2>Error State</h2>
+          <div class="field outlined md error">
+            <input type="text" placeholder=" " />
+            <label>Email</label>
+            <div class="field-helper">Invalid email</div>
+          </div>
+        </div>
+        <div class="col-12">
+          <h2>Disabled</h2>
+          <div class="field outlined md disabled">
+            <input type="text" placeholder=" " disabled />
+            <label>Email</label>
+          </div>
+        </div>
+        <div class="col-12">
+          <h2>With Icons</h2>
+          <div class="field outlined md has-start-icon has-end-icon">
+            <span class="field-icon start">📧</span>
+            <input type="text" placeholder=" " />
+            <label>Email</label>
+            <span class="field-icon end">✔</span>
+          </div>
+        </div>
+        <div class="col-12">
+          <h2>Select</h2>
+          <div class="field outlined md">
+            <select>
+              <option value=""></option>
+              <option>Option 1</option>
+              <option>Option 2</option>
+            </select>
+            <label>Select Item</label>
+          </div>
+        </div>
+        <div class="col-12">
+          <h2>Text Area</h2>
+          <div class="field outlined md">
+            <textarea placeholder=" "></textarea>
+            <label>Message</label>
+          </div>
         </div>
       </div>
     </div>

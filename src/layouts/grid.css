@@ -1,5 +1,3 @@
-@import "../base/variables.css";
-
 .row {
   display: grid;
   grid-template-columns: repeat(var(--grid-columns), 1fr);
