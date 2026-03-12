@@ -4,14 +4,10 @@
 @import "./base/typography.css";
 
 /* layout */
-@import "./layout/container.css";
-@import "./layout/grid.css";
+@import "./layouts/container.css";
+@import "./layouts/grid.css";
 
 /* components */
 @import "./components/button.css";
 @import "./components/input.css";
 @import "./components/card.css";
-
-/* utilities */
-@import "./utils/spacing.css";
-@import "./utils/display.css";

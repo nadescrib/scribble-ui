@@ -1,1 +1,1 @@
-@import "./base/reset.css";@import "./base/variables.css";@import "./base/typography.css";@import "./layout/container.css";@import "./layout/grid.css";@import "./components/button.css";@import "./components/input.css";@import "./components/card.css";@import "./utils/spacing.css";@import "./utils/display.css";
+@import "./base/reset.css";@import "./base/variables.css";@import "./base/typography.css";@import "./layouts/container.css";@import "./layouts/grid.css";@import "./components/button.css";@import "./components/input.css";@import "./components/card.css";
